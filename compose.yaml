@@ -1,12 +1,12 @@
 services:
-  hp:
+  OP:
     build:
       context: .
       target: dev
       dockerfile: Dockerfile
-    image: hp:dev
-    container_name: hp_dev
+    image: op:dev
+    container_name: op_dev
     volumes:
-      - ./:/app
+      - ./:/OP
     ports:
-      - "4200:4200"
+      - "5173:5173"

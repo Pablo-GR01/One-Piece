@@ -3,11 +3,8 @@ import typescriptLogo from './typescript.svg'
 import viteLogo from '/vite.svg'
 import { setupCounter } from './counter.ts'
 
-import { DragonBall } from '/personage.ts';
+//import { DragonBall } from '/personage.ts';
 
-document.addEventListener('DOMContentLoaded', () => {
-  new DragonBall();
-});
 
 
 

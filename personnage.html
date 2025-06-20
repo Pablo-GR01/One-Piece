@@ -1,24 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <link rel="icon" type="image/svg+xml" href="/src/image/logo.png" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link href="/src/style.css" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/src/image/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/src/style.css" rel="stylesheet">
+    
+    <title>Dragon Ball | Personage</title>
+  </head>
+  <body class="bg-[url('/src/image/background.png')] bg-cover bg-center h-screen bg-no-repeat">
+
+
+    
+    <div id="header"></div>
+    <div id="cards-container"></div>
+
+    <input id="search" type="text">
+
+    <div id="universe-buttons"> <button data-universe="tout">Tous</button> ... </div>
+
+
         
-        <title>Dragon Ball | Perso</title>
-    </head>
-    <body class="bg-gray-900">
-
-        <div id="header"></div>
 
 
-        <div id="cards"></div>
+    
+
+
 
 
 
 
     
-        <script type="module" src="/src/main.ts"></script>
-    </body>
+    <script type="module" src="/src/main.ts"></script>
+    <script type="module" src="/personage.ts"></script>
+  </body>
 </html>
